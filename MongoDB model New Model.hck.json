@@ -66,29 +66,12 @@
           "error": {}
         },
         {
-          "name": "ab_test",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "string",
-          "GUID": "af61b497-10ba-44ca-88e6-cc279b2fe2ab",
-          "error": {}
-        },
-        {
           "name": "warmup_mode",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "boolean",
           "error": {},
           "GUID": "49cd7cee-1acd-4fea-aa97-fa86116cd785"
-        },
-        {
-          "name": "hour_limit",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "numeric",
-          "GUID": "12f3a11d-fe21-47f4-b7c7-37b81114fb2f",
-          "mode": "double",
-          "error": {}
         },
         {
           "name": "subject_length",
@@ -146,23 +129,6 @@
           "type": "boolean",
           "error": {},
           "GUID": "9e421966-e970-4ed9-8eed-b3a8a9a553a6"
-        },
-        {
-          "name": "is_test",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "boolean",
-          "error": {},
-          "GUID": "8464fd7c-0aae-48e7-a03b-29f338baa9be"
-        },
-        {
-          "name": "position",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "numeric",
-          "GUID": "31f1cce4-f7c2-4f8b-aa47-a63cd0a51c4a",
-          "mode": "integer32",
-          "error": {}
         },
         {
           "name": "_id",
@@ -457,39 +423,12 @@
           "GUID": "09fd4193-b4f1-4ebf-831f-971d11e92942"
         },
         {
-          "name": "clicked_first_time_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "83be8ef6-1e3e-4438-806d-fe806056673e"
-        },
-        {
-          "name": "clicked_last_time_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "e68d264c-9cb1-44b6-82d5-cb89f71daedb"
-        },
-        {
           "name": "is_purchased",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "boolean",
           "error": {},
           "GUID": "75ba9521-f6b5-42f1-9c22-17065427b211"
-        },
-        {
-          "name": "purchased_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "bb73c577-db02-4eda-bcc3-68bf1b722e2d"
         },
         {
           "name": "message_type",
@@ -547,30 +486,12 @@
           "GUID": "5a7bdeca-896e-4377-b0aa-ed7ef1a46d2e"
         },
         {
-          "name": "unsubscribed_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "69ec96ca-c42e-44f0-8713-2691820941ef"
-        },
-        {
           "name": "is_hard_bounced",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "boolean",
           "error": {},
           "GUID": "13486345-a98c-4209-bbc9-85173b5526b6"
-        },
-        {
-          "name": "hard_bounced_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "931780b1-688f-4559-8f04-361be53a519e"
         },
         {
           "name": "is_soft_bounced",
@@ -581,15 +502,6 @@
           "GUID": "3914277c-1b85-4d73-92ab-65099899f1ba"
         },
         {
-          "name": "soft_bounced_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "980f9355-30f9-4c5e-825f-2e66d709ce55"
-        },
-        {
           "name": "is_complained",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -598,30 +510,12 @@
           "GUID": "572a61dc-f1a2-45fb-bba2-3e925b8ee1e6"
         },
         {
-          "name": "complained_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "ffa03ef2-8b71-490f-bbc6-26701e3120a2"
-        },
-        {
           "name": "is_blocked",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "boolean",
           "error": {},
           "GUID": "c1632318-56df-4db3-ba05-08de3632db54"
-        },
-        {
-          "name": "blocked_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "type": "date",
-          "primaryKey": false,
-          "error": {},
-          "GUID": "8e78bd18-af53-46c5-a1a8-f0566b3b5788"
         }
       ],
       "definitions": {
@@ -744,9 +638,7 @@
     "0c8ec084-2107-434a-b98d-6ded5288dcd5": "started_at",
     "1afa56fd-8682-4e5a-b471-705889266760": "finished_at",
     "bb2b53b1-cca6-4de1-8e23-fcb41c3267b4": "total_count",
-    "af61b497-10ba-44ca-88e6-cc279b2fe2ab": "ab_test",
     "49cd7cee-1acd-4fea-aa97-fa86116cd785": "warmup_mode",
-    "12f3a11d-fe21-47f4-b7c7-37b81114fb2f": "hour_limit",
     "4840305c-9667-42b7-8d65-7b1c671cf623": "subject_length",
     "59ba94d8-ad7a-4a05-baef-01155f339777": "subject_with_personalization",
     "5f110d6b-bfd2-48aa-af22-61fdb44b3d43": "subject_with_deadline",
@@ -754,8 +646,6 @@
     "40cb8183-24e5-4417-a923-ae6a5e56dfe8": "subject_with_bonuses",
     "4b1057e3-d595-49cc-a94f-577d67c79c28": "subject_with_discount",
     "9e421966-e970-4ed9-8eed-b3a8a9a553a6": "subject_with_saleout",
-    "8464fd7c-0aae-48e7-a03b-29f338baa9be": "is_test",
-    "31f1cce4-f7c2-4f8b-aa47-a63cd0a51c4a": "position",
     "221fda49-36a4-4c47-ab64-1f24d0483ace": "_id",
     "5ef0dde7-60f7-4e31-b3d6-8e8c3d719d25": "events",
     "02cc8824-52aa-4209-a5a3-5906ad2e44d1": "event_time",
@@ -784,25 +674,17 @@
     "24546e08-a72c-45f3-a74e-87cc486c75b4": "opened_first_time_at",
     "30c9767a-c510-4da6-821e-76b023ea0180": "opened_last_time_at",
     "09fd4193-b4f1-4ebf-831f-971d11e92942": "is_clicked",
-    "83be8ef6-1e3e-4438-806d-fe806056673e": "clicked_first_time_at",
-    "e68d264c-9cb1-44b6-82d5-cb89f71daedb": "clicked_last_time_at",
     "75ba9521-f6b5-42f1-9c22-17065427b211": "is_purchased",
-    "bb73c577-db02-4eda-bcc3-68bf1b722e2d": "purchased_at",
     "9f9ae253-6f16-4dad-bd98-1ad35b0cbf13": "message_type",
     "9ffccf1f-7d3f-490f-8c1d-d6aac95b322c": "email_provider",
     "5a2e8f71-3c34-4144-bafe-20ce905c219d": "platform",
     "3e0def0a-662e-4b44-aa36-decb48eb2264": "stream",
     "1e1063a2-7c36-40db-9cab-d1eaa0e3e476": "date",
     "5a7bdeca-896e-4377-b0aa-ed7ef1a46d2e": "is_unsubscribed",
-    "69ec96ca-c42e-44f0-8713-2691820941ef": "unsubscribed_at",
     "13486345-a98c-4209-bbc9-85173b5526b6": "is_hard_bounced",
-    "931780b1-688f-4559-8f04-361be53a519e": "hard_bounced_at",
     "3914277c-1b85-4d73-92ab-65099899f1ba": "is_soft_bounced",
-    "980f9355-30f9-4c5e-825f-2e66d709ce55": "soft_bounced_at",
     "572a61dc-f1a2-45fb-bba2-3e925b8ee1e6": "is_complained",
-    "ffa03ef2-8b71-490f-bbc6-26701e3120a2": "complained_at",
     "c1632318-56df-4db3-ba05-08de3632db54": "is_blocked",
-    "8e78bd18-af53-46c5-a1a8-f0566b3b5788": "blocked_at",
     "ef302d91-d4cc-434a-b695-da5de8f47dcf": "client_first_purchase_date",
     "5aa7df3f-1395-4d27-9517-0e6f2c40b8ea": "_id",
     "401c6b63-a222-43f4-91db-483c34e09776": "client_id",
@@ -832,7 +714,7 @@
   "creationTS": "2026-03-14T17:39:41.414Z",
   "GUID": "2b0b47be-ae80-4b64-9175-d9f0f580d878",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-03-14T19:43:57.918Z",
+  "lastModifTS": "2026-03-16T16:27:16.031Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -841,6 +723,7 @@
   "applicationInformation": {
     "version": "8.9.6"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -849,8 +732,8 @@
             "GUID": "c1cddadc-f550-4f48-80e8-fa9914eee4e8",
             "x": 1104,
             "y": 1104,
-            "width": 304,
-            "height": 392,
+            "width": 293,
+            "height": 320,
             "color": {}
           },
           {
@@ -874,7 +757,7 @@
             "x": 2057,
             "y": 1304,
             "width": 248,
-            "height": 572,
+            "height": 428,
             "color": {}
           },
           {

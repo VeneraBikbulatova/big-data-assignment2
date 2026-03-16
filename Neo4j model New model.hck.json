@@ -126,23 +126,6 @@
           "GUID": "dbfcb6ec-b7ca-40e5-95c2-cbbec5d7d892"
         },
         {
-          "name": "hour_limit",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "exclusiveMinimum": false,
-          "exclusiveMaximum": false,
-          "primaryKey": false,
-          "unique": false,
-          "childType": "number",
-          "type": "numeric",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "7c96c4f5-9587-4f03-b8aa-3374e828c404",
-          "mode": "float",
-          "error": {}
-        },
-        {
           "name": "subject_length",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -248,38 +231,6 @@
           "compositeNodeKey": false,
           "error": {},
           "GUID": "10aec280-c1c0-4a15-9f39-813b0b6545d9"
-        },
-        {
-          "name": "is_test",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "childType": "boolean",
-          "type": "boolean",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "compositeNodeKey": false,
-          "error": {},
-          "GUID": "38f3f424-4307-4305-af2d-d76ce446b405"
-        },
-        {
-          "name": "position",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "exclusiveMinimum": false,
-          "exclusiveMaximum": false,
-          "primaryKey": false,
-          "unique": false,
-          "childType": "number",
-          "type": "numeric",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "4d2e9939-7fc3-434c-aead-a1fd845d6ae4",
-          "mode": "integer",
-          "error": {}
         }
       ],
       "definitions": {
@@ -450,32 +401,6 @@
           "GUID": "32ab0f86-b64c-471c-87ed-96ab7025002e"
         },
         {
-          "name": "clicked_first_time_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "type": "string",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "dc617462-b896-45a5-a87e-0c0848a98dff",
-          "error": {}
-        },
-        {
-          "name": "clicked_last_time_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "type": "string",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "22d3a14b-3780-4983-bd50-f5d94af665f6",
-          "error": {}
-        },
-        {
           "name": "is_purchased",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -489,19 +414,6 @@
           "compositeNodeKey": false,
           "error": {},
           "GUID": "0a2a053b-aff8-447d-884c-2affda921edd"
-        },
-        {
-          "name": "purchased_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "type": "string",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "e0468be5-39e5-4625-832a-0c70c26b3567",
-          "error": {}
         },
         {
           "name": "message_type",
@@ -590,19 +502,6 @@
           "GUID": "363b5ca3-2493-42fa-92a7-22bbc3a57635"
         },
         {
-          "name": "unsubscribed_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "type": "string",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "e3d93acd-c772-4bf4-a59a-42ba2d70c712",
-          "error": {}
-        },
-        {
           "name": "is_hard_bounced",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -616,19 +515,6 @@
           "compositeNodeKey": false,
           "error": {},
           "GUID": "7396bb9b-0e70-421e-b36d-82a710eba327"
-        },
-        {
-          "name": "hard_bounced_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "type": "string",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "1439b241-cb45-4fbb-bd9e-2c67393ceebd",
-          "error": {}
         },
         {
           "name": "is_soft_bounced",
@@ -646,19 +532,6 @@
           "GUID": "c43aee3f-ae49-4fa4-8c39-0fb9b7c08e35"
         },
         {
-          "name": "soft_bounced_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "type": "string",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "617f4f92-afdc-4323-9f9f-b44d467e681d",
-          "error": {}
-        },
-        {
           "name": "is_blocked",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -672,19 +545,6 @@
           "compositeNodeKey": false,
           "error": {},
           "GUID": "0ea15e3f-792d-4e0c-bd40-79f50bfbab74"
-        },
-        {
-          "name": "blocked_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "type": "string",
-          "compositeKey": [
-            "compositeNodeKey"
-          ],
-          "GUID": "f4ddbfb3-e0fd-45b7-a8bc-cafff3f3bd8e",
-          "error": {}
         }
       ],
       "definitions": {
@@ -1035,7 +895,6 @@
     "5ad6c23f-73e0-4a75-9c64-3c60951c3cb7": "finished_at",
     "4e2d3642-304d-42aa-be16-5a02c04ecf71": "total_count",
     "dbfcb6ec-b7ca-40e5-95c2-cbbec5d7d892": "warmup_mode",
-    "7c96c4f5-9587-4f03-b8aa-3374e828c404": "hour_limit",
     "31bce93d-0245-40bc-823e-ef4f75b2ac42": "subject_length",
     "9ce6e942-a393-4373-a341-ef974938fb5d": "subject_with_personalization",
     "6a5bc579-9ccf-4e75-a08b-a8d3069f7db8": "subject_with_deadline",
@@ -1043,8 +902,6 @@
     "e6874468-bd9b-4c57-8ed6-df3f18c43445": "subject_with_bonuses",
     "d6413f21-ca9d-4977-bc83-e992ac6a75d7": "subject_with_discount",
     "10aec280-c1c0-4a15-9f39-813b0b6545d9": "subject_with_saleout",
-    "38f3f424-4307-4305-af2d-d76ce446b405": "is_test",
-    "4d2e9939-7fc3-434c-aead-a1fd845d6ae4": "position",
     "fe869cec-3133-40b2-9647-25a79645a9ef": "Message",
     "e08ce716-5d86-45d0-b668-3ef1b761b121": "id",
     "2ed2c17c-ca43-4919-8c39-e287cf9e8041": "campaign_id",
@@ -1056,23 +913,16 @@
     "5790dc5b-564b-43e0-afe7-c0ffc4c1e375": "opened_first_time_at",
     "d6d055e5-e4cb-4098-9b89-b966cb973f6a": "opened_last_time_at",
     "32ab0f86-b64c-471c-87ed-96ab7025002e": "is_clicked",
-    "dc617462-b896-45a5-a87e-0c0848a98dff": "clicked_first_time_at",
-    "22d3a14b-3780-4983-bd50-f5d94af665f6": "clicked_last_time_at",
     "0a2a053b-aff8-447d-884c-2affda921edd": "is_purchased",
-    "e0468be5-39e5-4625-832a-0c70c26b3567": "purchased_at",
     "14bebfbb-6eb5-4080-a377-31050acf5b89": "message_type",
     "02ea9637-a40f-4dc4-9546-7e8602234853": "email_provider",
     "680db639-4fb4-40fe-865a-995534dab3a8": "platform",
     "21a3ae90-3e21-4f91-b437-99a58baa091b": "stream",
     "ed12ca4e-1f84-41d4-809a-a10eab1b8abc": "date",
     "363b5ca3-2493-42fa-92a7-22bbc3a57635": "is_unsubscribed",
-    "e3d93acd-c772-4bf4-a59a-42ba2d70c712": "unsubscribed_at",
     "7396bb9b-0e70-421e-b36d-82a710eba327": "is_hard_bounced",
-    "1439b241-cb45-4fbb-bd9e-2c67393ceebd": "hard_bounced_at",
     "c43aee3f-ae49-4fa4-8c39-0fb9b7c08e35": "is_soft_bounced",
-    "617f4f92-afdc-4323-9f9f-b44d467e681d": "soft_bounced_at",
     "0ea15e3f-792d-4e0c-bd40-79f50bfbab74": "is_blocked",
-    "f4ddbfb3-e0fd-45b7-a8bc-cafff3f3bd8e": "blocked_at",
     "d73af1bb-81e3-4c25-9b4a-7d4783efff13": "Event",
     "b9926450-d514-46c5-8ba5-2bd750126244": "event_time",
     "5aedf5c4-e99c-4125-b140-f90a3b95c132": "event_type",
@@ -1115,7 +965,7 @@
   "creationTS": "2026-03-15T10:52:49.618Z",
   "GUID": "ccc85896-c6ab-452c-a9cd-fd0cc84064ea",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-03-15T16:54:47.553Z",
+  "lastModifTS": "2026-03-16T16:32:40.937Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -1126,6 +976,7 @@
   "applicationInformation": {
     "version": "8.9.6"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -1237,32 +1088,32 @@
             {
               "GUID": "9c8ec6a7-3ef0-4ab6-ab44-61b20a0324d3",
               "size": 100,
-              "x": 1508.0075488833284,
-              "y": 1702.083361729976
+              "x": 1506.4610570027044,
+              "y": 1713.6242371164547
             },
             {
               "GUID": "fe869cec-3133-40b2-9647-25a79645a9ef",
               "size": 100,
-              "x": 1213.8336383345784,
-              "y": 1762.3306473055468
+              "x": 1210.186021005274,
+              "y": 1762.51870505035
             },
             {
               "GUID": "d73af1bb-81e3-4c25-9b4a-7d4783efff13",
               "size": 100,
-              "x": 1496.174758189091,
-              "y": 1455.501201937269
+              "x": 1492.0316438684013,
+              "y": 1444.8894043684013
             },
             {
               "GUID": "3084ff14-12b2-44b4-9168-8905a511543b",
               "size": 100,
-              "x": 1195.9399030471527,
-              "y": 1462.1852209869926
+              "x": 1192.2455996159297,
+              "y": 1462.4636165668835
             }
           ],
           "buckets": [
             {
-              "x": 1129.9913749045138,
-              "y": 1386.0941172636317,
+              "x": 1126.5518719668937,
+              "y": 1375.9051110397268,
               "GUID": "1c81459d-7a80-4b6a-9e6a-c6b2fd7869d9"
             }
           ],

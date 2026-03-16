@@ -117,50 +117,6 @@
           "error": {}
         },
         {
-          "name": "ab_test",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "varchar",
-          "required": false,
-          "childType": "char",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "triggerUpdateColumns": false,
-          "GUID": "c3302cd7-9116-4093-acf4-a6cc397bf27b",
-          "error": {}
-        },
-        {
-          "name": "is_test",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "alternateKey": false,
-          "childType": "boolean",
-          "type": "boolean",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
-          "triggerUpdateColumns": false,
-          "error": {},
-          "required": false,
-          "GUID": "02fcaf4a-3deb-4e66-b4a0-09a6b6290e89"
-        },
-        {
           "name": "subject_with_personalization",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -299,30 +255,6 @@
           "GUID": "e539b465-6d53-4eef-9518-608e9f4a773e"
         },
         {
-          "name": "position",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "exclusiveMinimum": false,
-          "exclusiveMaximum": false,
-          "mode": "bigint",
-          "childType": "numeric",
-          "type": "numeric",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "10ab4371-1ff2-4399-ae34-7de00f14280d",
-          "error": {}
-        },
-        {
           "name": "topic",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -390,30 +322,6 @@
           "error": {},
           "required": false,
           "GUID": "f642216c-b77c-4236-b915-f7c085ff5203"
-        },
-        {
-          "name": "hour_limit",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "exclusiveMinimum": false,
-          "exclusiveMaximum": false,
-          "mode": "real",
-          "childType": "numeric",
-          "type": "numeric",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "eed3e66d-6233-48bd-a87c-8457e231c68b",
-          "error": {}
         },
         {
           "name": "subject_length",
@@ -1028,29 +936,6 @@
           "GUID": "8a9281dd-3622-47df-8ef8-b5b5a51c6959"
         },
         {
-          "name": "purchased_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "c277ef4a-e662-47a6-bb73-c3ba4f8faf1a",
-          "error": {}
-        },
-        {
           "name": "message_type",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -1210,52 +1095,6 @@
           "error": {}
         },
         {
-          "name": "clicked_first_time_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "c14aa52f-664a-48ec-ae37-a733b07d827d",
-          "error": {}
-        },
-        {
-          "name": "clicked_last_time_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "c9c41cb9-1a21-4c35-b8b5-050adc768cce",
-          "error": {}
-        },
-        {
           "name": "is_unsubscribed",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -1277,29 +1116,6 @@
           "error": {},
           "required": false,
           "GUID": "80837032-13b0-40a0-a858-9da1b61af4a2"
-        },
-        {
-          "name": "unsubscribed_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "d0d1d6b6-86da-4b6a-bcbc-e8629a2042a5",
-          "error": {}
         },
         {
           "name": "is_hard_bounced",
@@ -1325,29 +1141,6 @@
           "GUID": "ed006b9d-ccae-4683-9417-5787504c3c0f"
         },
         {
-          "name": "hard_bounced_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "b6d7fd82-1f27-4226-8a63-4d910919e438",
-          "error": {}
-        },
-        {
           "name": "is_soft_bounced",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -1369,29 +1162,6 @@
           "error": {},
           "required": false,
           "GUID": "7a6011c7-5529-4cfb-b33d-e9683d759d75"
-        },
-        {
-          "name": "soft_bounced_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "423822ef-d3c7-4c48-b106-5a25e7930e5c",
-          "error": {}
         },
         {
           "name": "is_complained",
@@ -1417,29 +1187,6 @@
           "GUID": "ae27c8d0-463b-4872-844a-877f2f325094"
         },
         {
-          "name": "complained_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "bc04aac3-0c9e-48d4-a224-f3e2a0f9f23f",
-          "error": {}
-        },
-        {
           "name": "is_blocked",
           "hackoladeMeta": {},
           "isActivated": true,
@@ -1461,29 +1208,6 @@
           "error": {},
           "required": false,
           "GUID": "4c89e1f4-3dbc-4004-9d00-cac28e26fecf"
-        },
-        {
-          "name": "blocked_at",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "unique": false,
-          "mode": "timestamp",
-          "scale": 7,
-          "childType": "datetime",
-          "type": "string",
-          "compositeKey": [
-            "compositePartitionKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey",
-            "triggerUpdateColumns"
-          ],
-          "compositePartitionKey": false,
-          "compositePrimaryKey": false,
-          "triggerUpdateColumns": false,
-          "required": false,
-          "GUID": "f948c242-d93d-4ec1-8bb3-0e886c446789",
-          "error": {}
         }
       ],
       "definitions": {
@@ -1632,20 +1356,24 @@
         "dataType": "",
         "shape": [
           {
-            "x": 987,
-            "y": 1282.5
+            "x": 1139,
+            "y": 1005
+          },
+          {
+            "x": 1139,
+            "y": 965
           },
           {
             "x": 783,
-            "y": 1282.5
+            "y": 965
           },
           {
             "x": 783,
-            "y": 997
+            "y": 925
           }
         ],
         "sides": [
-          "left",
+          "top",
           "bottom"
         ]
       }
@@ -1684,11 +1412,11 @@
         "shape": [
           {
             "x": 1291,
-            "y": 1282.5
+            "y": 1210.5
           },
           {
             "x": 1461,
-            "y": 1282.5
+            "y": 1210.5
           },
           {
             "x": 1461,
@@ -1732,15 +1460,12 @@
     "a2f8b58c-032a-4828-9807-a1eb325f3cb0": "price",
     "3c4a681e-e26d-4ef4-8186-238554540df3": "user_id",
     "6f927f39-2e41-42f5-96e3-3f070a213ed9": "user_session",
-    "c3302cd7-9116-4093-acf4-a6cc397bf27b": "ab_test",
-    "02fcaf4a-3deb-4e66-b4a0-09a6b6290e89": "is_test",
     "4c7ee513-6098-4a97-9138-457a98584d1d": "user_id",
     "95f9df72-3bd1-4913-a877-462ca17d6c19": "channel",
     "b22b5b5e-a9b2-420e-8ad9-230f113f36ff": "sent_at",
     "a0b7bb1d-8ea4-4b54-a573-50988a079faf": "is_opened",
     "f8beecff-2f75-47e4-9756-712a9561ebef": "is_clicked",
     "8a9281dd-3622-47df-8ef8-b5b5a51c6959": "is_purchased",
-    "c277ef4a-e662-47a6-bb73-c3ba4f8faf1a": "purchased_at",
     "2de17c94-f7be-49e8-b187-a2e5f4e9f78c": "campaigns_messages",
     "7c17720a-88d5-4610-b073-11986132fa76": "id",
     "4891fca8-aae6-426c-90e1-c2c3332d05e0": "subject_with_personalization",
@@ -1749,11 +1474,9 @@
     "d561240b-cfb2-4f36-9141-b52813ac5a3d": "subject_with_bonuses",
     "809f07f2-28ff-4b98-8d5b-990a13185cc1": "subject_with_discount",
     "e539b465-6d53-4eef-9518-608e9f4a773e": "subject_with_saleout",
-    "10ab4371-1ff2-4399-ae34-7de00f14280d": "position",
     "61b8db34-5225-4b7a-ab76-d6983ba0590f": "topic",
     "36c57043-df17-4ecb-bcb5-6373c04173d0": "total_count",
     "f642216c-b77c-4236-b915-f7c085ff5203": "warmup_mode",
-    "eed3e66d-6233-48bd-a87c-8457e231c68b": "hour_limit",
     "6a5d2e9f-58d5-4e4c-acfc-c2e164ad9068": "subject_length",
     "aa93f51f-7045-4830-9c30-3ab09208770d": "message_type",
     "8adb2edf-8a8a-447c-9922-ded595df7a31": "email_provider",
@@ -1762,18 +1485,11 @@
     "f52b2342-d390-4c96-97bb-60648252cb38": "date",
     "03055251-bb26-4b1a-aead-769d6c84095f": "opened_first_time_at",
     "ddf079f6-ef1e-46c9-839a-859c8f550bea": "opened_last_time_at",
-    "c14aa52f-664a-48ec-ae37-a733b07d827d": "clicked_first_time_at",
-    "c9c41cb9-1a21-4c35-b8b5-050adc768cce": "clicked_last_time_at",
     "80837032-13b0-40a0-a858-9da1b61af4a2": "is_unsubscribed",
-    "d0d1d6b6-86da-4b6a-bcbc-e8629a2042a5": "unsubscribed_at",
     "ed006b9d-ccae-4683-9417-5787504c3c0f": "is_hard_bounced",
-    "b6d7fd82-1f27-4226-8a63-4d910919e438": "hard_bounced_at",
     "7a6011c7-5529-4cfb-b33d-e9683d759d75": "is_soft_bounced",
-    "423822ef-d3c7-4c48-b106-5a25e7930e5c": "soft_bounced_at",
     "ae27c8d0-463b-4872-844a-877f2f325094": "is_complained",
-    "bc04aac3-0c9e-48d4-a224-f3e2a0f9f23f": "complained_at",
     "4c89e1f4-3dbc-4004-9d00-cac28e26fecf": "is_blocked",
-    "f948c242-d93d-4ec1-8bb3-0e886c446789": "blocked_at",
     "6d3aeda7-a344-4a87-962a-03182b35a397": "id",
     "769ce045-5ded-4023-b42e-7b4bbb9458a8": "client_first_purchase_date_messages"
   },
@@ -1802,7 +1518,7 @@
   "creationTS": "2026-03-09T13:05:07.957Z",
   "GUID": "354c3156-3ebd-4a02-b7ea-0f7b410f00f3",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-03-14T17:39:21.403Z",
+  "lastModifTS": "2026-03-16T16:24:37.566Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -1823,7 +1539,7 @@
             "x": 608,
             "y": 622,
             "width": 350,
-            "height": 375,
+            "height": 303,
             "color": {}
           },
           {
@@ -1847,7 +1563,7 @@
             "x": 987,
             "y": 1005,
             "width": 304,
-            "height": 555,
+            "height": 411,
             "color": {}
           },
           {
